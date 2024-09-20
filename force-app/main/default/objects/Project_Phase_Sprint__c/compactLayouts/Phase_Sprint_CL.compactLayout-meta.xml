@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase_Sprint_CL</fullName>
+    <fields>Name</fields>
+    <fields>Project_Team__c</fields>
+    <fields>Start_Date__c</fields>
+    <fields>Due_Date__c</fields>
+    <fields>End_Date__c</fields>
+    <label>Phase/Sprint CL</label>
+</CompactLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EndDateCannotBeEarlierThanStartDate</fullName>
+    <active>true</active>
+    <description>The End Date of a User Story cannot be equal to or earlier than its Start Date</description>
+    <errorConditionFormula>Start_Date__c  &gt;=  End_Date__c</errorConditionFormula>
+    <errorDisplayField>End_Date__c</errorDisplayField>
+    <errorMessage>The End Date of a User Story cannot be equal to or earlier than its Start Date</errorMessage>
+</ValidationRule>

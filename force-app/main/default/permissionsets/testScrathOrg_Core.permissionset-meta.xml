@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow user to be able to create scratch org.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>testScrathOrg_Core</label>
+</PermissionSet>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Reason_for_Absence__c</fullName>
+    <label>Main Reason for Absence</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Personal Reasons</fullName>
+                <default>false</default>
+                <label>Personal Reasons</label>
+            </value>
+            <value>
+                <fullName>Work-Related Reasons</fullName>
+                <default>false</default>
+                <label>Work-Related Reasons</label>
+            </value>
+            <value>
+                <fullName>Legal and Administrative</fullName>
+                <default>false</default>
+                <label>Legal and Administrative</label>
+            </value>
+            <value>
+                <fullName>Other Reasons</fullName>
+                <default>false</default>
+                <label>Other Reasons</label>
+            </value>
+            <value>
+                <fullName>Unpaid Leave Types</fullName>
+                <default>false</default>
+                <label>Unpaid Leave Types</label>
+            </value>
+            <value>
+                <fullName>Half-Day or Partial Leave</fullName>
+                <default>false</default>
+                <label>Half-Day or Partial Leave</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

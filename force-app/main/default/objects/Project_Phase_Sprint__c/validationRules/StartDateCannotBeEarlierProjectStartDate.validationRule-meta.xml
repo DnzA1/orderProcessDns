@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StartDateCannotBeEarlierProjectStartDate</fullName>
+    <active>true</active>
+    <description>Phase/Sprint Start Date cannot be earlier than the Project Order&apos;s Start Date, which it belongs.</description>
+    <errorConditionFormula>Start_Date__c  &lt;  Project__r.Project_Start_Date__c</errorConditionFormula>
+    <errorDisplayField>Start_Date__c</errorDisplayField>
+    <errorMessage>Phase/Sprint Start Date cannot be earlier than the Project Order&apos;s Start Date, which it belongs.</errorMessage>
+</ValidationRule>

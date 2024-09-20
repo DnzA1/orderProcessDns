@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subreason_for_Absence__c</fullName>
+    <label>Subreason for Absence</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Main_Reason_for_Absence__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Family events (e.g., wedding, graduation)</fullName>
+                <default>false</default>
+                <label>Family events (e.g., wedding, graduation)</label>
+            </value>
+            <value>
+                <fullName>Medical appointment</fullName>
+                <default>false</default>
+                <label>Medical appointment</label>
+            </value>
+            <value>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+                <label>Vacation</label>
+            </value>
+            <value>
+                <fullName>Family emergency</fullName>
+                <default>false</default>
+                <label>Family emergency</label>
+            </value>
+            <value>
+                <fullName>Childcare</fullName>
+                <default>false</default>
+                <label>Childcare</label>
+            </value>
+            <value>
+                <fullName>Illness or medical leave</fullName>
+                <default>false</default>
+                <label>Illness or medical leave</label>
+            </value>
+            <value>
+                <fullName>Bereavement or funeral</fullName>
+                <default>false</default>
+                <label>Bereavement or funeral</label>
+            </value>
+            <value>
+                <fullName>Mental health day</fullName>
+                <default>false</default>
+                <label>Mental health day</label>
+            </value>
+            <value>
+                <fullName>Business trip</fullName>
+                <default>false</default>
+                <label>Business trip</label>
+            </value>
+            <value>
+                <fullName>Training or professional development</fullName>
+                <default>false</default>
+                <label>Training or professional development</label>
+            </value>
+            <value>
+                <fullName>Work overload</fullName>
+                <default>false</default>
+                <label>Work overload</label>
+            </value>
+            <value>
+                <fullName>Office relocation</fullName>
+                <default>false</default>
+                <label>Office relocation</label>
+            </value>
+            <value>
+                <fullName>Remote work</fullName>
+                <default>false</default>
+                <label>Remote work</label>
+            </value>
+            <value>
+                <fullName>Jury duty</fullName>
+                <default>false</default>
+                <label>Jury duty</label>
+            </value>
+            <value>
+                <fullName>Military service</fullName>
+                <default>false</default>
+                <label>Military service</label>
+            </value>
+            <value>
+                <fullName>Court appearance</fullName>
+                <default>false</default>
+                <label>Court appearance</label>
+            </value>
+            <value>
+                <fullName>Public holiday</fullName>
+                <default>false</default>
+                <label>Public holiday</label>
+            </value>
+            <value>
+                <fullName>Administrative leave</fullName>
+                <default>false</default>
+                <label>Administrative leave</label>
+            </value>
+            <value>
+                <fullName>Religious observance</fullName>
+                <default>false</default>
+                <label>Religious observance</label>
+            </value>
+            <value>
+                <fullName>Community service or volunteering</fullName>
+                <default>false</default>
+                <label>Community service or volunteering</label>
+            </value>
+            <value>
+                <fullName>Maternity or paternity leave</fullName>
+                <default>false</default>
+                <label>Maternity or paternity leave</label>
+            </value>
+            <value>
+                <fullName>Adoption leave</fullName>
+                <default>false</default>
+                <label>Adoption leave</label>
+            </value>
+            <value>
+                <fullName>Sabbatical</fullName>
+                <default>false</default>
+                <label>Sabbatical</label>
+            </value>
+            <value>
+                <fullName>Personal unpaid leave</fullName>
+                <default>false</default>
+                <label>Personal unpaid leave</label>
+            </value>
+            <value>
+                <fullName>Extended vacation (unpaid)</fullName>
+                <default>false</default>
+                <label>Extended vacation (unpaid)</label>
+            </value>
+            <value>
+                <fullName>Educational leave (unpaid)</fullName>
+                <default>false</default>
+                <label>Educational leave (unpaid)</label>
+            </value>
+            <value>
+                <fullName>Morning leave</fullName>
+                <default>false</default>
+                <label>Morning leave</label>
+            </value>
+            <value>
+                <fullName>Afternoon leave</fullName>
+                <default>false</default>
+                <label>Afternoon leave</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Family events (e.g., wedding, graduation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Medical appointment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Vacation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Family emergency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Childcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Illness or medical leave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Bereavement or funeral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Reasons</controllingFieldValue>
+            <valueName>Mental health day</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Work-Related Reasons</controllingFieldValue>
+            <valueName>Business trip</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Work-Related Reasons</controllingFieldValue>
+            <valueName>Training or professional development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Work-Related Reasons</controllingFieldValue>
+            <valueName>Work overload</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Work-Related Reasons</controllingFieldValue>
+            <valueName>Office relocation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Work-Related Reasons</controllingFieldValue>
+            <valueName>Remote work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal and Administrative</controllingFieldValue>
+            <valueName>Jury duty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal and Administrative</controllingFieldValue>
+            <valueName>Military service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal and Administrative</controllingFieldValue>
+            <valueName>Court appearance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal and Administrative</controllingFieldValue>
+            <valueName>Public holiday</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal and Administrative</controllingFieldValue>
+            <valueName>Administrative leave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Reasons</controllingFieldValue>
+            <valueName>Religious observance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Reasons</controllingFieldValue>
+            <valueName>Community service or volunteering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Reasons</controllingFieldValue>
+            <valueName>Maternity or paternity leave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Reasons</controllingFieldValue>
+            <valueName>Adoption leave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Reasons</controllingFieldValue>
+            <valueName>Sabbatical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unpaid Leave Types</controllingFieldValue>
+            <valueName>Personal unpaid leave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unpaid Leave Types</controllingFieldValue>
+            <valueName>Extended vacation (unpaid)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unpaid Leave Types</controllingFieldValue>
+            <valueName>Educational leave (unpaid)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Half-Day or Partial Leave</controllingFieldValue>
+            <valueName>Morning leave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Half-Day or Partial Leave</controllingFieldValue>
+            <valueName>Afternoon leave</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

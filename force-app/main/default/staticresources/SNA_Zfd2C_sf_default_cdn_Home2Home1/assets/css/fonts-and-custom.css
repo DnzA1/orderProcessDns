@@ -1,0 +1,194 @@
+.become-a-chef-container {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    max-width: 1400px; /* Increase max width */
+    margin: 20px;
+    padding: 40px;
+    font-size: 65px; /* Base font size */
+    line-height: 1.6; /* Line height for readability */
+    text-align: center;
+}
+
+.become-a-chef-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.become-a-chef-button {
+    display: inline-block;
+    padding: 36px 52px;
+    background-color: var(--lwc-colorBrand, #007bff);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.become-a-chef-button:hover {
+    background-color: var(--lwc-colorBrandDark, #0056b3);
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-block {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-block {
+    flex: 1;
+    text-align: center;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Increase max width */
+    max-height: 400px; /* Increase max height */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px; /* Headings font size */
+    margin-bottom: 20px;
+}
+
+.highlight-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.highlight {
+    font-size: 24px; /* Ensure highlight text is consistent */
+    font-weight: bold;
+    color: #333;
+}
+
+/* for about us page button */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.footer-buttons {
+    margin-top: 10px;
+}
+
+.footer-button {
+    display: inline-block;
+    padding: 18px 26px;
+    margin: 10px;
+    background-color: var(--lwc-colorBrand, #007bff);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.footer-button:hover {
+    background-color: var(--lwc-colorBrandDark, #0056b3);
+}
+
+.social-button {
+    background-color: #3b5998;
+}
+
+.social-button[href*="X"] {
+    background-color: #000000;
+}
+
+.social-button[href*="instagram"] {
+    background-color: #e1306c;
+}
+
+.footer-button:hover .social-button {
+    background-color: #333;
+}
+
+/* for FOOD SAFETY PAGE */
+
+.food-safety-container {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-section {
+    margin: 40px 0;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.image-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Set the max width of the image */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* NAVIGATION BAR */
+nav ul {
+    font-size: larger;
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add some spacing between the items */
+}
+
+.siteforceCptBody .cHeader .cBrandingLogo {
+    background-image: var(--lwc-brandLogoImage, url(/home2home/file-asset/Untitled_design2?v=1&height=300&width=300));
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 99;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    outline: 0;
+    width: 90px;
+    height: 60px;
+}
+:root { --dxp-c-section-columns-max-width: 1170px; }

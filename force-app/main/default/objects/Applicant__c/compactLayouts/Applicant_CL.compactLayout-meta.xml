@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applicant_CL</fullName>
+    <fields>Name</fields>
+    <fields>First_Name__c</fields>
+    <fields>Last_Name__c</fields>
+    <fields>Application_Date__c</fields>
+    <fields>Stage__c</fields>
+    <label>Applicant CL</label>
+</CompactLayout>

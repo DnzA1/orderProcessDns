@@ -1,0 +1,75 @@
+<apex:page standardController="Absence_Request__c" renderAs="pdf">
+    <img src="{!$Resource.ChangeForceLogo}"></img>
+     
+    
+            <apex:pageBlock title="Absence Request Details"> 
+            <apex:pageBlockSection columns="2"> 
+            
+          <table>
+    <tr>
+        <td><b>Title:</b></td>
+        <td>{!Absence_Request__c.Title__c}</td>
+    </tr>
+    <tr>
+        <td><b>Request Id:</b></td>
+        <td>{!Absence_Request__c.Name}</td>
+    </tr>
+    
+    <tr>
+        <td><b>First Name:</b></td>
+        <td>{!Absence_Request__c.First_Name__c}</td>
+    </tr>
+    <tr>
+        <td><b>Last Name:</b></td>
+        <td>{!Absence_Request__c.Last_Name__c}</td>
+    </tr>
+    <tr>
+        <td><b>Phone Number:</b></td>
+        <td>{!Absence_Request__c.Phone_Number__c}</td>
+    </tr>
+    <tr>
+        <td><b>Employee Email:</b></td>
+        <td>{!Absence_Request__c.Employee_Email__c}</td>
+    </tr>
+    <tr>
+        <td><b>Start Date:</b>
+            <apex:outputText value="{0, date,  MM/dd/yyyy}">
+                <apex:param value="{!Absence_Request__c.Start_Date__c}" />
+            </apex:outputText>
+        </td>
+    </tr>
+    <tr>
+        <td><b>End Date:</b>
+            <apex:outputText value="{0, date, MM/dd/yyyy}">
+                <apex:param value="{!Absence_Request__c.End_Date__c}" />
+            </apex:outputText>
+        </td>
+    </tr>
+    <tr>
+        <td><b> Total Date:</b></td>
+        <td>{!Absence_Request__c.Total_Date__c}</td>
+    </tr>
+    <tr>
+        <td><b>Main Reason For Absence:</b></td>
+        <td>{!Absence_Request__c.Main_Reason_for_Absence__c}</td>
+    </tr>
+    <tr>
+        <td><b>Subreason For Absence:</b></td>
+        <td>{!Absence_Request__c.Subreason_for_Absence__c}</td>
+    </tr>
+    <tr>
+        <td><b>Status:</b></td>
+        <td>{!Absence_Request__c.Status__c}</td>
+    </tr>
+     <tr>
+        <td><b>Digital Signature:</b></td>
+        <td>{!Absence_Request__c.Digital_Signature__c}</td>
+    </tr>
+</table>
+
+            
+            </apex:pageBlockSection>
+             </apex:pageBlock>
+             
+        
+</apex:page>

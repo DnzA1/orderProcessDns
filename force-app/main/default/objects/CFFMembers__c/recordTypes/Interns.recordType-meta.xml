@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interns</fullName>
+    <active>true</active>
+    <description>Record Type to be assigned to Intern Account user</description>
+    <label>Interns</label>
+    <picklistValues>
+        <picklist>Certification__c</picklist>
+        <values>
+            <fullName>AI Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2B Solution Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2C Commerce Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2C Commerce Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2C Solution Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPQ Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Lifecycle and Deployment Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experience Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Service Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heroku Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identity and Access Management Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industries CPQ Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JavaScript Developer I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud Email Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OmniStudio Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OmniStudio Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pardot Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform App Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform Developer I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform Developer II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Cloud Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharing and Visibility Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tableau CRM and Einstein Discovery Consultant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P%2ES%2E Service Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

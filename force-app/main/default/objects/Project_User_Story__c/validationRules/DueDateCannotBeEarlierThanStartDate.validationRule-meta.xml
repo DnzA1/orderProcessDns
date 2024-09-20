@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DueDateCannotBeEarlierThanStartDate</fullName>
+    <active>true</active>
+    <description>The Due Date of a user story cannot be equal to or earlier than its Start Date</description>
+    <errorConditionFormula>Start_Date__c  &gt;=  Due_Date__c</errorConditionFormula>
+    <errorDisplayField>Due_Date__c</errorDisplayField>
+    <errorMessage>The Due Date of a user story cannot be equal to or earlier than its Start Date</errorMessage>
+</ValidationRule>

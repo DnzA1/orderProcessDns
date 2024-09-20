@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>LightningBolt</label>
+    <navType>Standard</navType>
+    <tabs>standard-LightningBoltHome</tabs>
+    <tabs>Board_Meeting__c</tabs>
+    <tabs>Food__c</tabs>
+    <tabs>ChefReview__c</tabs>
+    <tabs>OrderH__c</tabs>
+    <tabs>Cart_Item__c</tabs>
+    <tabs>Cart__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>
